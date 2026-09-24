@@ -3,27 +3,28 @@ using UnityEngine.InputSystem;
 
 public class KeyboardInput : MonoBehaviour
 {
-    // Update is called once per frame
+    public Corgi corgi;
+    
     public void Update()
     {
-        //get buttons pressed
+        // get the buttons pressed
         Keyboard keyboard = Keyboard.current;
-        if (keyboard.wKey.wasPressedThisFrame)
+
+        if (keyboard.wKey.isPressed)
         {
-            
+            corgi.Move(Vector2.up);
+        }   
+        if (keyboard.sKey.isPressed)
+        {
+            corgi.Move(Vector2.down);
         }
-        else if (keyboard.sKey.wasPressedThisFrame)
+        if (keyboard.aKey.isPressed)
         {
-            
+            corgi.Move(Vector2.left);
         }
-        else if (keyboard.aKey.wasPressedThisFrame)
+        if (keyboard.dKey.isPressed)
         {
-            
+            corgi.Move(Vector2.right);
         }
-        else if (keyboard.dKey.wasPressedThisFrame)
-        {
-            
-        }        
-        //move target
     }
 }
