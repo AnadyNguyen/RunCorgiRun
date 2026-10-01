@@ -19,7 +19,13 @@ public class Corgi : MonoBehaviour
         corgiSpriteRenderer.transform.position =
             SpriteTools.ConstrainToScreen(corgiSpriteRenderer);
     }
+    
+    public Vector3 GetPosition()
+    {
+        return transform.position;
+    }
 
+    
     public void FaceCorrectDirection(Vector2 direction)
     {
         if (direction.x > 0)
