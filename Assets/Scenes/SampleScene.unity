@@ -476,6 +476,9 @@ GameObject:
   m_Component:
   - component: {fileID: 648956887}
   - component: {fileID: 648956888}
+  - component: {fileID: 648956889}
+  - component: {fileID: 648956890}
+  - component: {fileID: 648956891}
   m_Layer: 0
   m_Name: Placers
   m_TagString: Untagged
@@ -511,6 +514,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PoopPlacer
   PoopPrefab: {fileID: 4558326028175102863, guid: c276d84fabbc14f5f955c036bd872390, type: 3}
+--- !u!114 &648956889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648956886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1fd2cfc2ac80470bb125d508596334f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BeerPlacer
+  TimedObjectPrefab: {fileID: 1851066844721197892, guid: 8fa2a197a484e422e9a4dba6de136fc3, type: 3}
+  MinimumSecondsToWait: 1
+  MaximumSecondsToWait: 3
+--- !u!114 &648956890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648956886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eb62ce7e93c4425eba7d48b7ea115d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BonePlacer
+  TimedObjectPrefab: {fileID: 7708552702060827215, guid: 67185efb7b5864adfb82e2cee4feefd1, type: 3}
+  MinimumSecondsToWait: 1
+  MaximumSecondsToWait: 3
+--- !u!114 &648956891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648956886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321491f4eb48c4306832d41d89e6bf81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PillPlacer
+  TimedObjectPrefab: {fileID: 8125514184211515493, guid: d8cc4311db8a64406b9e7262f946066c, type: 3}
+  MinimumSecondsToWait: 1
+  MaximumSecondsToWait: 3
 --- !u!1 &716265531
 GameObject:
   m_ObjectHideFlags: 0

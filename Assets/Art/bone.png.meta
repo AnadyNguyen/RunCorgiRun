@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e0f0481a2da9149c8ae9b279ec38bbea
+guid: a6e0c9cf54c0f483ba143fe5dd1fe1d5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6779204642115704726
-    second: beer_0
+      213: 7553835203902197830
+    second: bone_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -74,7 +74,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: beer_0
+      name: bone_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 3
-        width: 56
-        height: 58
+        x: 0
+        y: 16
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6975cf844b2941e50800000000000000
-      internalID: 6779204642115704726
+      spriteID: 6405e64981d94d860800000000000000
+      internalID: 7553835203902197830
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      beer_0: 6779204642115704726
+      bone_0: 7553835203902197830
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
