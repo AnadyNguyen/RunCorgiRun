@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3928690512873836472}
   - component: {fileID: 4171597970961668473}
+  - component: {fileID: -8068154975069098375}
   m_Layer: 0
   m_Name: pill
-  m_TagString: Untagged
+  m_TagString: Pill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,3 +93,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &-8068154975069098375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8125514184211515493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8740b592938d74854b242ae46ff46b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pill
+  secondsOnScreen: 1
